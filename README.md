@@ -1,2 +1,2 @@
-# github.brainjakai-status.io
-Site to check brainjak AI sites status.
+# status page for [https://brainjakai.xyz](brainjak AI)
+Site to check brainjak AI site status.
