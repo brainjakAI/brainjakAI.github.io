@@ -2,7 +2,7 @@ from pyscript import Element
 import requests
 
 def check_status():
-    url = 'https://www.google.com'
+    url = 'https://brainjakai.xyz'
     status_element = Element("status")
     try:
         response = requests.get(url)
@@ -16,5 +16,5 @@ def check_status():
 def ping(event):
     check_status()
 
-# Attach the ping function to the button
+#pinger button
 Element("pingButton").element.addEventListener("click", ping)
