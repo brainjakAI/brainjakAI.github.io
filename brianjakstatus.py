@@ -1,6 +1,7 @@
 from pyscript import Element
 import requests
 
+# some comment cause i'm testing something :sob:
 def check_status():
     url = 'https://brainjakai.xyz'
     status_element = Element("status")
